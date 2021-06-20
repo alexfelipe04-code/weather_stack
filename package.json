@@ -1,0 +1,27 @@
+{
+  "name": "weather_stack",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000w\u0000e\u0000a\u0000t\u0000h\u0000e\u0000r\u0000_\u0000s\u0000t\u0000a\u0000c\u0000k\u0000\r\u0000 \u0000",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  },
+  "devDependencies": {
+    "bulma": "^0.9.2",
+    "node-sass": "^6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexfelipe04-code/weather_stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexfelipe04-code/weather_stack/issues"
+  },
+  "homepage": "https://github.com/alexfelipe04-code/weather_stack#readme"
+}

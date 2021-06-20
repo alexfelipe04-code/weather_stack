@@ -1,0 +1,87 @@
+ {{> navbar}} 
+<body id="bd-color">
+
+<div class="tile is-parent">
+        <article class="tile is-child notification is-primary">
+          <p class="title">Forecast Weather </p>
+          <p class="subtitle">Informacion del clima  </p>
+          <p> En esta página podrá encontrar  los datos y temperaturas registrados.</p>
+
+        </article>
+      </div>
+
+
+      <div class="columns is-mobile is-centered">
+  <div class="column is-half">
+    <p class="bd-notification is-primary">
+      <center>Ingresando el nombre de tu ciudad podras tener el reporte del clima actulizado </center>
+      <div class="field">
+               <div class="control">
+                  <input class="input" type="text" placeholder="Buscar Ubicacion">
+               </div>
+           </div> 
+            <center>
+            <button class="button is-primary" id="submit">Buscar</button></center
+
+    </p>
+  </div>
+</div>
+
+   <div class="columns is-mobile is-centered">
+  <div class="column is-half">
+
+
+
+      <div class="box">
+         
+         <div class="field">
+            <div class="card-image">
+               <center><p class="panel-heading" id="lugar"></p>
+                     <figure class="image is-128x128">
+                 <img src="/img/signo.jpg" alt="Placeholder image" id="img">
+               </figure></center>
+            </div>
+          </div>  
+                     <center>
+                           <article class="panel is-warning">
+                           <p class="panel-heading" >
+                              El Tiempo ahora es 
+                           </p>
+                           
+                           
+                           <a class="panel-block is-active">
+                              <span class="panel-icon">
+                                 <i class="fas fa-book" aria-hidden="true"></i>
+                              </span>
+                              <p id="message-1"></p>
+ 
+                           </a>
+                           <a class="panel-block">
+                              <span class="panel-icon">
+                                 <i class="fas fa-book" aria-hidden="true"></i>
+                              </span>
+                             <p id="message-2"></p>
+                           </a>
+                           <a class="panel-block">
+                              <span class="panel-icon">
+                                 <i class="fas fa-book" aria-hidden="true"></i>
+                              </span>
+                              <p id="message-3"></p>
+                           </a>
+                           <a class="panel-block">
+                              <span class="panel-icon">
+                                 <i class="fas fa-book" aria-hidden="true"></i>
+                              </span>
+                               <p id="message-4"></p>
+                           </a>
+                           </article>
+                  </center>
+                  
+          </div>
+         
+   </div>
+ </div>
+
+
+</body>
+{{> footer}} 
